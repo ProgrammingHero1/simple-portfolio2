@@ -1,37 +1,31 @@
 body {
   font-family: roboto, sans-serif;
-  font-size: 15px;
   color: #707070;
-  padding: 0;
-  margin: 0;
 }
 h1 {
   font-size: 60px;
   margin: 20px 0;
 }
-h2,
-h4 {
+h2, h4 {
   font-size: 30px;
   margin-bottom: 30px;
   color: #000;
 }
 .container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
   max-width: 1140px;
   padding: 60px 0;
-}
-.row {
-  display: flex;
+  margin: auto;
+  clear: both;
 }
 .half-width {
-  float: left;
   max-width: 50%;
+  float: left;
 }
 .service-item {
+  max-width: 25%;
+  float: left;
+  margin: 0px 15px 20px 15px;
   padding: 20px;
   border: 1px solid #ddd;
-  background-color: #fff;
-  margin: 0px 15px 20px 15px;
+  border-radius: 20px;
 }
