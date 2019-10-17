@@ -5,17 +5,16 @@ body {
   padding: 0;
   margin: 0;
 }
-.section-title h3,
+h1 {
+  font-size: 60px;
+  margin: 20px 0;
+}
 h2,
 h4 {
   font-size: 30px;
   margin-bottom: 30px;
   color: #000;
 }
-.pd-15 {
-  padding: 0px 15px;
-}
-
 .container {
   width: 100%;
   margin-right: auto;
@@ -26,43 +25,13 @@ h4 {
 .row {
   display: flex;
 }
-
-.col-md-6 {
+.half-width {
   float: left;
   max-width: 50%;
 }
-.img-color-overlay {
-  background-color: rgba(249, 252, 255, 0.92);
-}
-.home-2-img {
-  background-image: url(images/home-bg-img.jpg);
-  background-position: center center;
-}
-.home .header-info h2 {
-  font-size: 60px;
-  margin: 20px 0;
-}
-.home .hero-img img {
-  border: 20px solid rgb(232, 236, 240);
-}
-/* ABOUT ME SECTION*/
-.about .about-inner {
-  padding-left: 50px;
-}
-.btn.btn-fill {
-  background-color: #03a9f4;
-  color: #fff;
-  padding: 12px 30px;
-  text-decoration: none;
-}
-/*Eudcation SECTION*/
 .service-item {
   padding: 20px;
-  margin-bottom: 20px;
   border: 1px solid #ddd;
   background-color: #fff;
-}
-.experience,
-.footer {
-  background-color: #f8fbfe;
+  margin: 0px 15px 20px 15px;
 }
