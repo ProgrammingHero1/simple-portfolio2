@@ -2,30 +2,77 @@ body {
   font-family: roboto, sans-serif;
   color: #707070;
 }
+
 h1 {
   font-size: 60px;
   margin: 20px 0;
 }
-h2, h4 {
+
+h2,
+h4 {
   font-size: 30px;
+  text-align: center;
   margin-bottom: 30px;
   color: #000;
 }
-.container {
-  max-width: 1140px;
-  padding: 60px 0;
-  margin: auto;
-  clear: both;
+
+.header {
+  width: 100%;
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
 }
+
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.service {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .half-width {
-  max-width: 50%;
-  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+.footer {
+  text-align: center;
+}
+
 .service-item {
-  max-width: 25%;
-  float: left;
   margin: 0px 15px 20px 15px;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+
+  .header {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .service {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+  }
+
 }
